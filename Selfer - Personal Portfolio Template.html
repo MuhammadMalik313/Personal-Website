@@ -20,39 +20,38 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" class="has-loading-screen loading-done">
-    <div class="ts-page-wrapper" id="page-top">
+    <div class="ts-page-wrapper" id="page-top" > 
         <!--NAVIGATION ******************************************************************************************-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white in">
             <div class="container">
                 <a class="navbar-brand ts-push-down__50 position-absolute ts-bottom__0 bg-white pb-0 ts-z-index__1 ts-scroll"
                     href="">
-                    <img src="" alt="">
+                    <!-- <img src="" alt=""> -->
                 </a>
                 <!--end navbar-brand-->
-                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" id="top"
                     data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!--end navbar-toggler-->
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
                     <div class="navbar-nav d-block d-lg-flex ml-auto text-right">
                         <a class="nav-item nav-link ts-scroll"
-                            href="">Home <span
+                            href="#header">Home <span
                                 class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link ts-scroll"
-                            href="">Services</a>
+                            href="#my-service">Services</a>
                         <a class="nav-item nav-link ts-scroll"
-                            href="">About
+                            href="#about-me">About
                             Me</a>
                         <a class="nav-item nav-link ts-scroll"
-                            href="">Skills</a>
+                            href="#my-skills">Skills</a>
                         <a class="nav-item nav-link ts-scroll"
-                            href="">Portfolio</a>
-                        <a class="nav-item nav-link ts-scroll active"
-                            href="">Clients</a>
+                            href="#portfolio">Gallery</a>
+                        
                         <a class="nav-item nav-link ts-scroll mr-2"
-                            href="">Contact</a>
+                            href="#ts-footer">Contact</a>
                     </div>
                     <!--end navbar-nav-->
                 </div>
@@ -67,10 +66,10 @@
         <div id="ts-hero" class="ts-animate-hero-items">
 
             <!--HERO CONTENT ****************************************************************************************-->
-            <div class="container position-relative h-100 ts-align__vertical">
+            <div id="header" class="container position-relative h-100 ts-align__vertical">
                 <div class="row w-100">
                     <div class="col-md-8">
-                        <!--SOCIAL ICONS-->
+                        <!-- SOCIAL ICONS
                         <figure class="ts-social-icons mb-4">
                             <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#" class="mr-3">
                                 <i class="fab fa-facebook"></i>
@@ -86,16 +85,16 @@
                             </a>
                             <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#" class="mr-3">
                                 <i class="fab fa-instagram"></i>
-                            </a>
-                        </figure>
+                            </a> 
+                        </figure> -->
 
                         <!--TITLE -->
-                        <h1>I am Muhammad Malik F</h1>
+                        <h1>I am<br> Muhammad Malik F</h1>
                         <h1 class="ts-bubble-border in" style="width: 291.8px; height: 115.2px;">
                             <i></i><i></i><i></i><i></i><i></i>
                             <span class="ts-title-rotate">
                                 <span class="active">App Devoloper</span>
-                                <span class="">web Designer</span>
+                                <span class="">Web Designer</span>
                                 <span class="">Mechanical Engineer</span>
                                 <span class="">Calligrapher</span>
                                 <span class="">Frontend Devoloper</span>
@@ -106,7 +105,7 @@
                     <!--end col-md-8-->
                 </div>
                 <!--end row-->
-                <a href=""
+                <a href="#ts-content"
                     class="ts-btn-effect position-absolute ts-bottom__0 ts-left__0 ts-scroll ml-3 mb-3">
                     <span class="ts-visible ts-circle__sm rounded-0 ts-bg-primary">
                         <i class="fa fa-arrow-down text-white"></i>
@@ -137,7 +136,7 @@
 
             <!--MY SERVICES ***********************************************************************************-->
             <section id="my-services" class="ts-block ts-xs-text-center pb-0">
-                <div class="container">
+                <div id="my-service" class="container">
                     <div class="ts-title text-center">
                         <h2>My Services</h2>
                     </div>
@@ -357,19 +356,19 @@
 
             <section id="about-me" class="ts-block pb-4">
                 <div class="container">
-                    <div class="ts-title text-center">
+                    <div id="about-me" class="ts-title text-center">
                         <h2>About Me</h2>
                     </div>
                     <!--end ts-title-->
                     <div class="row ts-align__vertical">
                         <div class="col-md-6">
-                            <img src="./Selfer - Personal Portfolio Template_files/img-man-looking.jpg" alt=""
+                            <img src="assets/img/profile photo.png" alt=""
                                 class="mw-100 mb-5">
                         </div>
                         <div class="col-md-6">
                             <h4 class="ts-bubble-border"><i></i><i></i><i></i><i></i><i></i>Hi There</h4>
                             <p>
-                                I'm Muhammad Malik , I'm software Engineer specializing in building and designing mobile
+                                I'm Muhammad Malik , I'm software a Engineer and also a mechanical engineer specializing in building and designing mobile
                                 application.I enjoy creating things that live on the internet.My interest in mobile app
                                 devolopment started in 2021 when i decided to try create awesome mobile application.
                             </p>
@@ -384,7 +383,7 @@
                                 <dd>@Malik__313_</dd>
                             </dl>
                             <hr class="ts-hr-light mb-5">
-                            <a href=""
+                            <a href="#ts-footer"
                                 class="ts-btn-effect mr-2">
                                 <span class="ts-visible btn btn-primary ts-btn-arrow">Contact Me</span>
                                 <span class="ts-hidden btn btn-primary ts-btn-arrow" data-bg-color="#d44729"
@@ -396,7 +395,7 @@
                             <!--<i class="fa fa-download small mr-2"></i>-->
                             <!--Download CV-->
                             <!--</a>-->
-                            <a href=""
+                            <a href="#ts-footer"
                                 class="ts-btn-effect mr-2">
                                 <span class="ts-visible btn btn-outline-light">
                                     <i class="fa fa-download small mr-2"></i>
@@ -419,7 +418,7 @@
                         <h3 class="my-3">
                             Let’s Work Together On Your Next Project!
                         </h3>
-                        <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#contact"
+                        <a href="#ts-footer"
                             class="btn btn-primary mr-2 ts-push-down__50 ts-has-talk-arrow">Hire Me Now!</a>
                         <div class="ts-background ts-opacity__20" data-bg-image="assets/img/bg-keyboard.jpg"
                             style="background-image: url(&quot;assets/img/bg-keyboard.jpg&quot;);"></div>
@@ -450,7 +449,7 @@
                                 senior managers. Currently looking for a suitable graduate web developer position with a
                                 progressive employer.
                             </p>
-                            <a href=""
+                            <a href="#ts-footer"
                                 class="btn btn-outline-light mb-5">Contact Me</a>
                         </div>
                         <!--end col-md-6-->
@@ -498,19 +497,19 @@
                     </div>
                     <!--end ts-title-->
                     <div class="card-columns ts-gallery ts-column-count-4">
-                        <a href="portfolio images/corrazone image.webp"
+                        <a href="assets/img/corrazone image.webp"
                             class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"
                             style="visibility: hidden;">
                             <div class="ts-gallery__item-description">
                                 <h6 class="ts-opacity__50"></h6>
                                 <h4></h4>
                             </div>
-                            <img src="portfolio images/corrazone image.webp" class="card-img"
+                            <img src="assets/img/corrazone image.webp" class="card-img"
                                 alt="">
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
-                        <a href="portfolio images/light.jpg"
+                        <a href="assets/img/ashiklight.jpg"
                             class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"
                             style="visibility: hidden;">
                             <div class="ts-gallery__image">
@@ -518,33 +517,18 @@
                                     <h6 class="ts-opacity__50"></h6>
                                     <h4></h4>
                                 </div>
-                                <img src="portfolio images/light.jpg" class="card-img"
+                                <img src="assets/img/ashiklight.jpg" class="card-img"
                                     alt="">
                                 <!--end ts-gallery__item-description-->
                             </div>
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
-                        <a href="portfolio images/love.jpg"
+                        <a href="assets/img/love.jpg"
                             class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"
                             style="visibility: hidden;">
                             <div class="ts-gallery__image">
-                                <img src="portfolio images/love.jpg" class="card-img"
-                                    alt="">
-                                <div class="ts-gallery__item-description">
-                                    <h6 class="ts-opacity__50"></h6>
-                                    <h4></h4>
-                                </div>
-                                <!--end ts-gallery__item-description-->
-                            </div>
-                            <!--end ts-gallery__image-->
-                        </a>
-                        <!--end card ts-gallery__item-->
-                        <a href="portfolio images/calli1.jpg"
-                            class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"
-                            style="visibility: hidden;">
-                            <div class="ts-gallery__image">
-                                <img src="portfolio images/calli1.jpg" class="card-img"
+                                <img src="assets/img/love.jpg" class="card-img"
                                     alt="">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50"></h6>
@@ -555,11 +539,11 @@
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
-                        <a href="portfolio images/Muhammad Malik (__malik_313__) posted on Instagram_CTURuBgB1L2(JPG).jpg"
+                        <a href="assets/img/calli1.jpg"
                             class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"
                             style="visibility: hidden;">
                             <div class="ts-gallery__image">
-                                <img src="portfolio images/Muhammad Malik (__malik_313__) posted on Instagram_CTURuBgB1L2(JPG).jpg" class="card-img"
+                                <img src="assets/img/calli1.jpg" class="card-img"
                                     alt="">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50"></h6>
@@ -570,11 +554,11 @@
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
-                        <a href="portfolio images/sun.jpg"
+                        <a href="assets/img/sun.jpg"
                             class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"
                             style="visibility: hidden;">
                             <div class="ts-gallery__image">
-                                <img src="portfolio images/sun.jpg" class="card-img"
+                                <img src="assets/img/sun.jpg" class="card-img"
                                     alt="">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50"></h6>
@@ -585,11 +569,11 @@
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
-                        <a href=""
+                        <a href="assets/img/light.jpg"
                             class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"
                             style="visibility: hidden;">
                             <div class="ts-gallery__image">
-                                <img src="" class="card-img"
+                                <img src="assets/img/light.jpg" class="card-img"
                                     alt="">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50"></h6>
@@ -600,11 +584,11 @@
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
-                        <a href=""
+                        <a href="assets/img/gatelight.jpg"
                             class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"
                             style="visibility: hidden;">
                             <div class="ts-gallery__image">
-                                <img src="" class="card-img"
+                                <img src="assets/img/gatelight.jpg" class="card-img"
                                     alt="">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50"></h6>
@@ -615,11 +599,11 @@
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
-                        <a href="portfolio images/calligraphy.jpg"
+                        <a href="assets/img/calligraphy.jpg"
                             class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"
                             style="visibility: hidden;">
                             <div class="ts-gallery__image">
-                                <img src="portfolio images/calligraphy.jpg" class="card-img"
+                                <img src="assets/img/calligraphy.jpg" class="card-img"
                                     alt="">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50"></h6>
@@ -630,11 +614,11 @@
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
-                        <a href=""
+                        <a href="assets/img/aydhu.jpg"
                             class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"
                             style="visibility: hidden;">
                             <div class="ts-gallery__image">
-                                <img src="" class="card-img"
+                                <img src="assets/img/aydhu.jpg" class="card-img"
                                     alt="">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50"></h6>
@@ -645,11 +629,26 @@
                             <!--end ts-gallery__image-->
                         </a>
                         <!--end card ts-gallery__item-->
-                        <a href="portfolio images/aydhu.jpg"
+                        <a href="assets/img/IMG-20211031-WA0053.jpg"
                             class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"
                             style="visibility: hidden;">
                             <div class="ts-gallery__image">
-                                <img src="portfolio images/aydhu.jpg" class="card-img"
+                                <img src="assets/img/IMG-20211031-WA0053.jpg" class="card-img"
+                                    alt="">
+                                <div class="ts-gallery__item-description">
+                                    <h6 class="ts-opacity__50"></h6>
+                                    <h4></h4>
+                                </div>
+                                <!--end ts-gallery__item-description-->
+                            </div>
+                            <!--end ts-gallery__image-->
+                        </a>
+                        <!--end card ts-gallery__item-->
+                        <a href="assets/img/malikphoto.jpg"
+                            class="card ts-gallery__item popup-image" data-animate="ts-fadeInUp"
+                            style="visibility: hidden;">
+                            <div class="ts-gallery__image">
+                                <img src="assets/img/malikphoto.jpg" class="card-img"
                                     alt="">
                                 <div class="ts-gallery__item-description">
                                     <h6 class="ts-opacity__50"></h6>
@@ -673,7 +672,7 @@
                     <div class="row">
                         <div class="col-sm-6 col-md-3">
                             <div class="ts-promo-number text-center">
-                                <figure class="odometer odometer-auto-theme" data-odometer-final="0">
+                                <figure class="odometer odometer-auto-theme" data-odometer-final="1">
                                     <div class="odometer-inside"><span class="odometer-digit"><span
                                                 class="odometer-digit-spacer">8</span><span
                                                 class="odometer-digit-inner"><span class="odometer-ribbon"><span
@@ -692,7 +691,7 @@
                         <!--end col-md-3-->
                         <div class="col-sm-6 col-md-3">
                             <div class="ts-promo-number text-center">
-                                <figure class="odometer odometer-auto-theme" data-odometer-final="0">
+                                <figure class="odometer odometer-auto-theme" data-odometer-final="4">
                                     <div class="odometer-inside"><span class="odometer-digit"><span
                                                 class="odometer-digit-spacer">8</span><span
                                                 class="odometer-digit-inner"><span class="odometer-ribbon"><span
@@ -752,185 +751,11 @@
             </section>
             <!--end ts-block-->
 
-            <section id="testimonials" class="ts-block text-center pb-5" tabindex="-1">
-                <div class="container">
-                    <div class="ts-title">
-                        <h2>Wording</h2>
-                    </div>
-                    <!--end ts-title-->
-                    <div class="row">
-                        <div class="col-md-8 offset-md-2">
-                            <div class="owl-carousel owl-loaded owl-drag" data-owl-dots="1" data-owl-loop="1"
-                                data-animate="ts-fadeInUp" style="visibility: hidden;">
-
-                                <!--end slide-->
-
-                                <!--end slide-->
-                                <div class="owl-stage-outer">
-                                    <div class="owl-stage"
-                                        style="transform: translate3d(-2190px, 0px, 0px); transition: all 0.25s ease 0s; width: 4380px;">
-                                        <div class="owl-item cloned" style="width: 730px;">
-                                            <div class="slide mb-5">
-                                                <figure
-                                                    class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow">
-                                                    <i class="fa fa-quote-right"></i>
-                                                </figure>
-                                                <p class="ts-h5">
-                                                    In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at
-                                                    sapien faucibus
-                                                    fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis
-                                                </p>
-                                                <div class="ts-circle__lg mb-3" data-bg-image="assets/img/person.jpg"
-                                                    style="background-image: url(&quot;assets/img/person.jpg&quot;);">
-                                                </div>
-                                                <h5>Jane Doe</h5>
-                                                <h6 class="ts-opacity__40">Bristol Creative</h6>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item cloned" style="width: 730px;">
-                                            <div class="slide mb-5">
-                                                <figure
-                                                    class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow">
-                                                    <i class="fa fa-quote-right"></i>
-                                                </figure>
-                                                <p class="ts-h5">
-                                                    Nam egestas porta posuere. Nunc velit lorem, vestibulum vitae massa
-                                                    nec, lacinia dictum
-                                                    ligula. Quisque scelerisque nec dolor id convallis. Vestibulum porta
-                                                    ipsum pretium
-                                                    turpis rhoncus, non fringilla ipsum mattis.
-                                                </p>
-                                                <div class="ts-circle__lg mb-3" data-bg-image="assets/img/person-02.jpg"
-                                                    style="background-image: url(&quot;assets/img/person-02.jpg&quot;);">
-                                                </div>
-                                                <h5>John Brown</h5>
-                                                <h6 class="ts-opacity__40">ABC Architects</h6>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item" style="width: 730px;">
-                                            <div class="slide mb-5">
-                                                <figure
-                                                    class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow">
-                                                    <i class="fa fa-quote-right"></i>
-                                                </figure>
-                                                <p class="ts-h5">
-                                                    In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at
-                                                    sapien faucibus
-                                                    fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis
-                                                </p>
-                                                <div class="ts-circle__lg mb-3" data-bg-image="assets/img/person.jpg"
-                                                    style="background-image: url(&quot;assets/img/person.jpg&quot;);">
-                                                </div>
-                                                <h5>Jane Doe</h5>
-                                                <h6 class="ts-opacity__40">Bristol Creative</h6>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item active" style="width: 730px;">
-                                            <div class="slide mb-5">
-                                                <figure
-                                                    class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow">
-                                                    <i class="fa fa-quote-right"></i>
-                                                </figure>
-                                                <p class="ts-h5">
-                                                    Nam egestas porta posuere. Nunc velit lorem, vestibulum vitae massa
-                                                    nec, lacinia dictum
-                                                    ligula. Quisque scelerisque nec dolor id convallis. Vestibulum porta
-                                                    ipsum pretium
-                                                    turpis rhoncus, non fringilla ipsum mattis.
-                                                </p>
-                                                <div class="ts-circle__lg mb-3" data-bg-image="assets/img/person-02.jpg"
-                                                    style="background-image: url(&quot;assets/img/person-02.jpg&quot;);">
-                                                </div>
-                                                <h5>John Brown</h5>
-                                                <h6 class="ts-opacity__40">ABC Architects</h6>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item cloned" style="width: 730px;">
-                                            <div class="slide mb-5">
-                                                <figure
-                                                    class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow">
-                                                    <i class="fa fa-quote-right"></i>
-                                                </figure>
-                                                <p class="ts-h5">
-                                                    In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at
-                                                    sapien faucibus
-                                                    fermentum ut vel diam. Nullam tempus, nunc id efficitur sagittis
-                                                </p>
-                                                <div class="ts-circle__lg mb-3" data-bg-image="assets/img/person.jpg"
-                                                    style="background-image: url(&quot;assets/img/person.jpg&quot;);">
-                                                </div>
-                                                <h5>Jane Doe</h5>
-                                                <h6 class="ts-opacity__40">Bristol Creative</h6>
-                                            </div>
-                                        </div>
-                                        <div class="owl-item cloned" style="width: 730px;">
-                                            <div class="slide mb-5">
-                                                <figure
-                                                    class="d-inline-block p-3 ts-bg-primary text-white ts-has-talk-arrow">
-                                                    <i class="fa fa-quote-right"></i>
-                                                </figure>
-                                                <p class="ts-h5">
-                                                    Nam egestas porta posuere. Nunc velit lorem, vestibulum vitae massa
-                                                    nec, lacinia dictum
-                                                    ligula. Quisque scelerisque nec dolor id convallis. Vestibulum porta
-                                                    ipsum pretium
-                                                    turpis rhoncus, non fringilla ipsum mattis.
-                                                </p>
-                                                <div class="ts-circle__lg mb-3" data-bg-image="assets/img/person-02.jpg"
-                                                    style="background-image: url(&quot;assets/img/person-02.jpg&quot;);">
-                                                </div>
-                                                <h5>John Brown</h5>
-                                                <h6 class="ts-opacity__40">ABC Architects</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="owl-nav disabled">
-                                    <div class="owl-prev"></div>
-                                    <div class="owl-next"></div>
-                                </div>
-                                <div class="owl-dots">
-                                    <div class="owl-dot"><span></span></div>
-                                    <div class="owl-dot active"><span></span></div>
-                                </div>
-                            </div>
-                            <!--end owl-carousel-->
-                        </div>
-                        <!--end col-md-8-->
-                    </div>
-                    <!--end row-->
-                </div>
-                <!--end container-->
-            </section>
+            
             <!--end #testimonials ts-block-->
 
             <!--LOGOS ***********************************************************************************************-->
-            <section id="partners" class="ts-block py-4">
-                <!--container-->
-                <div class="container">
-                    <!--block of logos-->
-                    <div
-                        class="d-block d-md-flex justify-content-between align-items-center text-center ts-partners py-3">
-                        <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#">
-                            <img src="./Selfer - Personal Portfolio Template_files/logo-01-w.png" alt="">
-                        </a>
-                        <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#">
-                            <img src="./Selfer - Personal Portfolio Template_files/logo-02-w.png" alt="">
-                        </a>
-                        <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#">
-                            <img src="./Selfer - Personal Portfolio Template_files/logo-03-w.png" alt="">
-                        </a>
-                        <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#">
-                            <img src="./Selfer - Personal Portfolio Template_files/logo-04-w.png" alt="">
-                        </a>
-                        <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#">
-                            <img src="./Selfer - Personal Portfolio Template_files/logo-05-w.png" alt="">
-                        </a>
-                    </div>
-                    <!--end logos-->
-                </div>
-                <!--end container-->
-            </section>
+            
             <!--END LOGOS *******************************************************************************************-->
 
         </main>
@@ -953,8 +778,8 @@
                             <img src="./Selfer - Personal Portfolio Template_files/icon-pin.png" class="mb-4" alt="">
                             <h5>Address</h5>
                             <div class="ts-opacity__50">
-                                <figure class="mb-0">999 Carter Street</figure>
-                                <figure>Sailor Springs, IL 62434</figure>
+                                <figure class="mb-0">Mulakkavila Vadakkathil</figure>
+                                <figure>Kollam,Kerala,India</figure>
                             </div>
                             <!--end ts-opacity__50-->
                         </div>
@@ -965,8 +790,8 @@
                                 alt="">
                             <h5>Phone</h5>
                             <div class="ts-opacity__50">
-                                <figure class="mb-0">+1 618-689-9409</figure>
-                                <figure>+1 781-254-8437</figure>
+                                <figure class="mb-0">+91 9947 380 272</figure>
+                                <figure>+91 7356 942 015</figure>
                             </div>
                             <!--end ts-opacity__50-->
                         </div>
@@ -977,8 +802,8 @@
                                 alt="">
                             <h5>Email</h5>
                             <div class="ts-opacity__50">
-                                <figure class="mb-0">hello@example.com</figure>
-                                <figure>support@example.com</figure>
+                                <figure class="mb-0">muhammadmalikf313@gmail.com</figure>
+                                <figure>muhammadmalikf28@gmail.com</figure>
                             </div>
                             <!--end ts-opacity__50-->
                         </div>
@@ -989,7 +814,7 @@
                                 alt="">
                             <h5>Facebook Chat</h5>
                             <div class="ts-opacity__50">
-                                <figure>me.freelancer3</figure>
+                                <figure>Muhammad Malik</figure>
                             </div>
                             <!--end ts-opacity__50-->
                         </div>
@@ -1002,7 +827,7 @@
                             <div class="col-md-4">
                                 <h3>Let’s Connect</h3>
                                 <div class="ts-column-count-sm-2">
-                                    <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#"
+                                    <a href="https://www.facebook.com/profile.php?id=100030874283182"
                                         class="mb-3 d-flex text-white ts-align__vertical">
                                         <span class="ts-circle__xs border border-white ts-border-light mr-4">
                                             <i class="fab fa-facebook-f"></i>
@@ -1010,7 +835,7 @@
                                         <span>Facebook</span>
                                     </a>
                                     <!--end link-->
-                                    <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#"
+                                    <a href="https://twitter.com/Malik__313_"
                                         class="mb-3 d-flex text-white ts-align__vertical">
                                         <span class="ts-circle__xs border border-white ts-border-light mr-4">
                                             <i class="fab fa-twitter"></i>
@@ -1018,7 +843,7 @@
                                         <span>Twitter</span>
                                     </a>
                                     <!--end link-->
-                                    <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#"
+                                    <a href="https://www.instagram.com/_malik_313__/"
                                         class="mb-3 d-flex text-white ts-align__vertical">
                                         <span class="ts-circle__xs border border-white ts-border-light mr-4">
                                             <i class="fab fa-instagram"></i>
@@ -1026,20 +851,20 @@
                                         <span>Instagram</span>
                                     </a>
                                     <!--end link-->
-                                    <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#"
+                                    <a href="https://youtube.com/channel/UCMuC2TSkJcGakxtCQSp31Ig"
                                         class="mb-3 d-flex text-white ts-align__vertical">
                                         <span class="ts-circle__xs border border-white ts-border-light mr-4">
                                             <i class="fab fa-pinterest-p"></i>
                                         </span>
-                                        <span>Pinterest</span>
+                                        <span>Youtube</span>
                                     </a>
                                     <!--end link-->
-                                    <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#"
+                                    <a href="https://www.linkedin.com/in/muhammad-malik-f-317b2222b/"
                                         class="mb-3 d-flex text-white ts-align__vertical">
                                         <span class="ts-circle__xs border border-white ts-border-light mr-4">
                                             <i class="fab fa-skype"></i>
                                         </span>
-                                        <span>Skype</span>
+                                        <span>LinkedIn</span>
                                     </a>
                                     <!--end link-->
                                 </div>
@@ -1047,14 +872,14 @@
                             <!--end col-md-4-->
                             <div class="col-md-8">
                                 <h3>Send Me a Message</h3>
-                                <form id="form-contact" method="post" class="clearfix ts-form ts-form-email"
+                                <form name="formName" id="form-contact" method="post" action="" class=" form validation "
                                     data-php-path="assets/php/email.php" tabindex="-1">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6">
                                             <div class="form-group">
                                                 <label for="form-contact-name">Name *</label>
                                                 <input type="text" class="form-control" id="form-contact-name"
-                                                    name="name" placeholder="Name" required="">
+                                                    name="name" placeholder="Name" required>
                                             </div>
                                             <!--end form-group -->
                                         </div>
@@ -1063,7 +888,7 @@
                                             <div class="form-group">
                                                 <label for="form-contact-email">Email *</label>
                                                 <input type="email" class="form-control" id="form-contact-email"
-                                                    name="email" placeholder="Email" required="">
+                                                    name="email" placeholder="Email" required>
                                             </div>
                                             <!--end form-group -->
                                         </div>
@@ -1072,8 +897,8 @@
                                     <!--end row -->
                                     <div class="form-group">
                                         <label for="form-contact-subject">Subject *</label>
-                                        <input type="email" class="form-control" id="form-contact-subject"
-                                            name="subject" placeholder="Subject" required="">
+                                        <input type="text" class="form-control" id="form-contact-subject"
+                                            name="subject" placeholder="Subject" required>
                                     </div>
                                     <!--end form-group -->
                                     <div class="row">
@@ -1081,7 +906,7 @@
                                             <div class="form-group">
                                                 <label for="form-contact-message">Message *</label>
                                                 <textarea class="form-control" id="form-contact-message" rows="5"
-                                                    name="message" placeholder="Message" required=""></textarea>
+                                                    name="message" placeholder="Message" required type="text "></textarea>
                                             </div>
                                             <!--end form-group -->
                                         </div>
@@ -1114,8 +939,8 @@
 
             <div class="text-dark bg-white">
                 <div class="container py-3 position-relative">
-                    <small>© 2018 ThemeStarz, All Rights Reserved</small>
-                    <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#page-top"
+                    <small>© 2021, All Rights Reserved</small>
+                    <a href="#top"
                         class="ts-circle__xs rounded-0 bg-dark position-absolute ts-right__0 ts-top__0 ts-push-up__50 ts-scroll">
                         <i class="fa fa-arrow-up text-white"></i>
                     </a>
@@ -1129,7 +954,7 @@
     <!--end page-->
 
     <!-- Modal -->
-    <div class="modal fade text-dark" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
+    <!-- <div class="modal fade text-dark" id="modal" tabindex="-1" role="dialog" aria-labelledby="modal" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
             <div class="modal-content border-0 rounded-0">
                 <div class="modal-header bg-light px-5 pt-0 pb-5">
@@ -1147,113 +972,13 @@
                 </div>
                 <div class="modal-body p-5">
                     <h5 class="mb-4">Latest Works</h5>
-                    <div class="owl-carousel owl-loaded owl-drag" data-owl-dots="1">
-
-                        <!--end slide-->
-
-                        <!--end slide-->
-                        <div class="owl-stage-outer">
-                            <div class="owl-stage"
-                                style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s;">
-                                <div class="owl-item">
-                                    <div class="slide">
-                                        <div class="container-fluid">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <img src="./Selfer - Personal Portfolio Template_files/img-work-detail-01.jpg"
-                                                        alt="">
-                                                </div>
-                                                <div class="col-md-8">
-                                                    <h4 class="mb-3">Creative Lights</h4>
-                                                    <p>
-                                                        In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui
-                                                        at sapien faucibus
-                                                        fermentum ut vel diam. Nullam tempus, nunc id efficitur
-                                                        sagittis, urna est
-                                                        ultricies.
-                                                    </p>
-                                                    <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#"
-                                                        class="mb-4 text-dark d-block">
-                                                        <i class="fa fa-globe ts-opacity__50 mr-2"></i>
-                                                        www.example.com
-                                                    </a>
-                                                    <hr>
-                                                    <h6>Services Included</h6>
-                                                    <ul class="list-unstyled ts-opacity__50">
-                                                        <li>Design</li>
-                                                        <li>Coding</li>
-                                                        <li>SEO Optimization</li>
-                                                        <li>Hosting</li>
-                                                    </ul>
-                                                </div>
-                                                <!--end col-md-8-->
-                                            </div>
-                                            <!--end row-->
-                                        </div>
-                                        <!--end container-fluid-->
                                     </div>
-                                </div>
-                                <div class="owl-item">
-                                    <div class="slide">
-                                        <div class="container-fluid">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <img src="./Selfer - Personal Portfolio Template_files/img-work-detail-02.jpg"
-                                                        alt="">
-                                                </div>
-                                                <div class="col-md-8">
-                                                    <h4 class="mb-3">Wood Ceiling</h4>
-                                                    <p>
-                                                        Phasellus volutpat velit nec purus elementum feugiat. Nunc
-                                                        feugiat fringilla turpis.
-                                                        Nam sed facilisis sem. Vestibulum vitae orci nec purus fringilla
-                                                        condimentum.
-                                                        Pellentesque id augue rhoncus, finibus sapien ut, commodo eros.
-                                                        Maecenas in nibh
-                                                        augue. Nunc rutrum blandit massa eu aliquet. Nulla facilisi.
-                                                        Aenean luctus ipsum
-                                                        in orci sagittis auctor vel sit amet ex
-                                                    </p>
-                                                    <a href="http://www.themestarz.net/html/selfer/?storefront=envato-elements#"
-                                                        class="mb-4 text-dark d-block">
-                                                        <i class="fa fa-globe ts-opacity__50 mr-2"></i>
-                                                        www.example.com
-                                                    </a>
-                                                    <hr>
-                                                    <h6>Services Included</h6>
-                                                    <ul class="list-unstyled ts-opacity__50">
-                                                        <li>Design</li>
-                                                        <li>Coding</li>
-                                                        <li>SEO Optimization</li>
-                                                        <li>Hosting</li>
-                                                    </ul>
-                                                </div>
-                                                <!--end col-md-8-->
-                                            </div>
-                                            <!--end row-->
-                                        </div>
-                                        <!--end container-fluid-->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-nav disabled">
-                            <div class="owl-prev"></div>
-                            <div class="owl-next"></div>
-                        </div>
-                        <div class="owl-dots">
-                            <div class="owl-dot"><span></span></div>
-                            <div class="owl-dot active"><span></span></div>
-                        </div>
-                    </div>
-                    <!--end owl-carousel-->
-                </div>
-                <!--end modal-body-->
-            </div>
+                end modal-body-->
+            <!-- </div> -->
             <!--end modal-content-->
-        </div>
+        <!-- </div> -->
         <!--end modal-dialog-->
-    </div>
+    <!-- </div> --> -->
     <!--end modal-->
 
     <script src="./Selfer - Personal Portfolio Template_files/custom.hero.js.download"></script>
@@ -1271,7 +996,17 @@
     <script src="./Selfer - Personal Portfolio Template_files/owl.carousel.min.js.download"></script>
     <script src="./Selfer - Personal Portfolio Template_files/custom.js.download"></script>
 
-
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby0Sl9PgYCGsoJnBXrIUwuxcjdl2YhkyVZDZtAwXT8OkAsixZZ8eA8hsWLpian3IYLw9A/exec'
+        const form = document.forms['formName']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("submitted successfully"))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 
 </body>
 
